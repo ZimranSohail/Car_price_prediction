@@ -6,6 +6,24 @@ Predicts the asking price of a used car from seven features and compares four mo
 
 > Estimates are **2021-era asking prices in EUR**. The data is a 2021 scrape, so this is not a tool for today's market.
 
+<!-- Add a screenshot or short GIF of the app here: ![App screenshot](screenshot.png) -->
+
+## Try it
+
+Not sure what to enter? Use this car:
+
+| Field | Value |
+|---|---|
+| Make / Model | Opel / Corsa |
+| Fuel / Transmission | Gasoline / Manual |
+| Power | 69 hp |
+| Registration year | 2012 |
+| Mileage | 62,186 km |
+
+The app should show about **€5,371**. This car is in the training data, so it is a quick demo of the app working, not a test of the model's accuracy (see the test-set results below for that).
+
+**First load may be slow.** The app is hosted on Streamlit Community Cloud, which puts idle apps to sleep. If you see a button to wake the app up, click it and give it a moment to start.
+
 ## Data
 
 Kaggle `ander289386/cars-germany`: about 46k AutoScout24 listings from 2011-2021 with make, model, fuel, gearbox, horsepower, mileage, registration year and price.
