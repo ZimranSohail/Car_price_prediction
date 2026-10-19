@@ -2,11 +2,11 @@
 
 Predicts the asking price of a used car from seven features and compares four model families. The best model, a tuned XGBoost, is deployed as a small Streamlit app.
 
-**Live app:** [add link] | **Notebook:** `used_car_price_regression_final.ipynb`
+**Live app:** https://the-car-price-estimator.streamlit.app/ | **Notebook:** `used_car_price_regression_final.ipynb`
 
 > Estimates are **2021-era asking prices in EUR**. The data is a 2021 scrape, so this is not a tool for today's market.
 
-<!-- Add a screenshot or short GIF of the app here: ![App screenshot](screenshot.png) -->
+![alt text](image.png)
 
 ## Try it
 
